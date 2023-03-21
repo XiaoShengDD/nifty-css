@@ -6,6 +6,13 @@
 
 @if $standalone-color-scheme == true {
 
+    :root {
+        --themecolor: #{$state-active-bg};
+        --bfcolor: #{$state-active-color};
+        --color: #{$state-active-bg};
+    }
+    
+
     /* FONT COLOR - MAIN COLOR */
     /*======================================*/
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, #page-title{
